@@ -1,0 +1,60 @@
+body{
+    background-color: gray;
+}
+.container {
+    width: 35%;
+    margin: auto;
+}
+form {
+    margin:auto;
+    border: 2px solid black;
+    padding: 5px;
+    background-color:rgb(17, 226, 226);
+    border-radius: 10px;
+
+}
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.form-group {
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.form-group label{
+    font-weight: bold;
+    width: 20%;
+}
+
+.form-group input,textarea{
+    border-radius: 5px;
+    width: 80%;
+}
+
+button[type="submit"] {
+    display: flex;
+    justify-self:center;
+    background-color: #27445D;
+    padding: 3px;
+    font-size: medium;
+    font-weight: bold;
+    color: white;
+}
+
+.output {
+    text-align: center;
+    background-color:rgb(17, 226, 226);
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 5px;
+}
+
+.output_message {
+    background-color: white;
+    border-radius: 8px;
+
+}
